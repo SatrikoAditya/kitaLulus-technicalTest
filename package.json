@@ -1,0 +1,32 @@
+{
+  "name": "kitaLulus-TechnicalTest",
+  "version": "1.0.0",
+  "description": "Repository for Technical test at kitalulus",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SatrikoAditya/kitaLulus-TechnicalTest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SatrikoAditya/kitaLulus-TechnicalTest/issues"
+  },
+  "homepage": "https://github.com/SatrikoAditya/kitaLulus-TechnicalTest#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.5.1",
+    "sequelize": "^6.3.5",
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
