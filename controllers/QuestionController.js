@@ -31,8 +31,16 @@ class QuestionController {
     }
 
     static async findAll(req, res, next) {
+        const {
+            page
+        } = req.query
+        const limit = 10
+        const offset = (page - 1) * limit
         try {
-            const question = await Question.findAll()
+            const question = await Question.findAll({
+                offset: offset,
+                limit: limit
+            })
             res.status(200).json({
                 question
             })
