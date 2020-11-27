@@ -15,9 +15,34 @@ module.exports = (sequelize, DataTypes) => {
   };
   Question.init({
     uuid: DataTypes.UUID,
-    question: DataTypes.STRING,
+    question: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      validate: {
+        notNull: {
+          msg: 'Question is Required'
+        },
+        notEmpty: {
+          args: true,
+          msg: 'Question is Required'
+        }
+      }
+    },
     createdBy: DataTypes.STRING,
-    isActive: DataTypes.BOOLEAN
+    updatedBy: DataTypes.STRING,
+    isActive: {
+      type: DataTypes.BOOLEAN,
+      allowNull: false,
+      validate: {
+        notNull: {
+          msg: 'isActive is Required'
+        },
+        notEmpty: {
+          args: true,
+          msg: 'isActive is Required'
+        }
+      }
+    }
   }, {
     sequelize,
     modelName: 'Question',

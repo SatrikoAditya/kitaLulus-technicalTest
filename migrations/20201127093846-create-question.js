@@ -17,6 +17,9 @@ module.exports = {
       createdBy: {
         type: Sequelize.STRING
       },
+      updatedBy: {
+        type: Sequelize.STRING
+      },
       isActive: {
         type: Sequelize.BOOLEAN
       },

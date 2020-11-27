@@ -13,6 +13,12 @@ function errorHandler(err, req, res, next) {
     } else if (err.name === 'EMAIL_NOT_UNIQUE') {
         statusCode = 400
         errors.push('Email already registered')
+    } else if (err.name === 'AUTHENTICATION_FAILED') {
+        statusCode = 401
+        errors.push('Failed to Authenticate!')
+    } else if (err.name === 'DATA_NOT_FOUND') {
+        statusCode = 404
+        errors.push('Data Not Found')
     } else {
         errors.push('Internal Server Error')
     }
