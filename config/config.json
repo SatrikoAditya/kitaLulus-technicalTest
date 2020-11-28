@@ -1,7 +1,7 @@
 {
   "development": {
     "username": "postgres",
-    "password": "satriko209",
+    "password": "postgres",
     "database": "question-app",
     "host": "localhost",
     "dialect": "postgres"
