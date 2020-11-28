@@ -1,5 +1,4 @@
 FROM node:15.3.0-alpine
-FROM postgres:13.1
 
 WORKDIR /var/www/question-app
 

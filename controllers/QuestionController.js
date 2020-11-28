@@ -45,6 +45,7 @@ class QuestionController {
                 question
             })
         } catch (err) {
+            console.log(err)
             next(err)
         }
     }
