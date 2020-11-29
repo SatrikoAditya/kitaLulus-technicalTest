@@ -1,7 +1,7 @@
 # kitaLulus-TechnicalTest
 
 ### Tech Stack : 
-- Node.js, Express.js, PostgreSQL, Sequelize ORM, bcrypt, Jsonwebtoken, uuid
+- Node.js, Express.js, PostgreSQL, Sequelize ORM, bcrypt, Jsonwebtoken, uuid, Docker
 
 ### How to Run the app:
 - Make sure `docker` and `docker-compose` already installed
