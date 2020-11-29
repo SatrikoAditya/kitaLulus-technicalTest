@@ -2,7 +2,7 @@
 
 ### How to Run the app:
 - Make sure docker and docker-compose already installed
-- clone this repository and move to this repository with terminal
+- clone this repository and move to this repository (folder) with terminal
 - run on terminal `docker-compose up`
 - run on terminal `docker exec question-app sequelize db:create`
 - run on terminal `docker exec question-app sequelize db:migrate`
