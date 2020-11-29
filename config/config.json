@@ -3,7 +3,7 @@
     "username": "postgres",
     "password": "postgres",
     "database": "question-app",
-    "host": "localhost",
+    "host": "postgres",
     "dialect": "postgres"
   },
   "test": {
