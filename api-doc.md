@@ -67,6 +67,11 @@ List of available endpoints:
 
   * **Code:** 400 <br />
     **Content:** `{ errors : ["Email already registered"] }`
+    
+    OR
+
+  * **Code:** 400 <br />
+    **Content:** `{ errors : ["Invalid Email Format"] }`
 
 
 ### LOGIN USER
