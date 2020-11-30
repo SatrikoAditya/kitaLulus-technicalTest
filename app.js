@@ -11,7 +11,6 @@ app.use(express.urlencoded({
 app.use(express.json())
 app.use(router)
 app.use(errorHandler)
-app.use(cors)
 
 app.listen(PORT, () => {
     console.log(`Server is runing on PORT ${PORT}`)
